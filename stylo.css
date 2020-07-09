@@ -1,0 +1,44 @@
+.boton-enviar, .boton-eliminar{
+    border: solid 1px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.boton-enviar{
+    border-color: darkblue;
+    background-color: darkblue;
+    border-radius: 5px;
+    padding: 5px 12px 5px 7px;
+}
+
+.boton-enviar:hover{
+    background-color: blue;
+}
+
+.boton-eliminar{
+    border-color: darkred;
+    background-color: darkred;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+
+.boton-eliminar{
+    background-color: red;
+}
+
+.caja-marca:checked + label{
+    text-decoration: line-through;
+}
+
+#caja-de-tareas{
+    border: solid 1px gray;
+    border-radius: 5px;
+    padding: 5px 5px 5px 7px;
+}
+
+#caja-de-tareas:focus{
+    outline: none;
+    border: solid 1px lightgreen;
+    box-shadow: 0px 0px 0px 1px lightgreen;
+}
